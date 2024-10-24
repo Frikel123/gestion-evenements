@@ -24,6 +24,7 @@ class User extends Authenticatable
         'password',
         'role', // 'organisateur' ou 'participant'
     ];
+    
 
     // Relations
     public function events()
